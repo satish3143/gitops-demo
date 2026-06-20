@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gitops-demo
-        image: gitops-demo:v1
+        image: gitops-demo:v2
         imagePullPolicy: Never
         ports:
         - containerPort: 8080
